@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.space-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rem1 {
+  padding-block: 1rem;
+}
+
+.rem2 {
+  padding-block: 2rem;
+}
+
+.rem3 {
+  padding-block: 3rem;
+}
+
+.rem4 {
+  padding-block: 4rem;
+}
+
+.padInline1 {
+  padding-inline: 1rem;
+}
+
+.padInline2 {
+  padding-inline: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+@font-face {
+  font-family: "bold";
+  src: url(../fonts/SVNGilroy\ Bold.otf);
+}
+@font-face {
+  font-family: "light";
+  src: url(../fonts/SVNGilroy\ Light.otf);
+}
+@font-face {
+  font-family: "bold-text";
+  src: url(../fonts/SVNGilroy\ Bold.otf);
+}
+@font-face {
+  font-family: "light-text";
+  src: url(../fonts/SVNGilroy\ Light.otf);
+}/*# sourceMappingURL=style.css.map */
